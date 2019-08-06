@@ -8,6 +8,7 @@ function PersonCard(props) {
       <img src={props.personData.avatar_url}></img>
       <h1>{props.personData.name}</h1>
       <h5>{props.personData.bio}</h5>
+      <h5>{props.personData.html_url}</h5>
       <h5>Following: {props.personData.following}</h5>
       <h5> Followers: {props.personData.followers} (listed below)</h5>
     </div>
