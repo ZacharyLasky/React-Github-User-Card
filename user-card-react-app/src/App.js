@@ -47,6 +47,7 @@ class App extends React.Component{
   render() {
     return (
       <div className="App">
+        <h1>MY GITHUB!</h1>
         <PersonData dataProps={this.state.data}/>
         <FollowerData followerProps={this.state.followers}/>
       </div>
